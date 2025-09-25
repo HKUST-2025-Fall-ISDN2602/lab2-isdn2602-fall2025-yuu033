@@ -1,8 +1,8 @@
 #include "Arduino.h"
 
 /*Define the Pinout*/
-#define trigPin 16
-#define echoPin 15
+#define trigPin 39
+#define echoPin 40
 
 /*define sound speed in m*/
 #define SOUND_SPEED 340
