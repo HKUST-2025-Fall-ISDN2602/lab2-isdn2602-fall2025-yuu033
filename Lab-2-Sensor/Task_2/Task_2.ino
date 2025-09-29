@@ -5,8 +5,8 @@
 #define IMU_SCL 18 
 
 /*Define constant */
-const float LowPassFilterAlpha = 0.3f ; //*** Set filter constant for accelerometer which Alpha + Beta = 1.0f ***
-const float LowPassFilterBeta =  0.7f ;  
+const float LowPassFilterAlpha = 0.2f ; //*** Set filter constant for accelerometer which Alpha + Beta = 1.0f ***
+const float LowPassFilterBeta =  0.8f ;  
 
 const float ComplementaryFilterALPHA = 0.98f;  
 const float dt =  0.01f;    //*** Set the loop time as 10 ms***
